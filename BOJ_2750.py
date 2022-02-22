@@ -1,13 +1,13 @@
 #my
-# N = int(input())
-# num = []
+N = int(input())
+num = []
 
-# for i in range(N):
-#     num.append(int(input()))
-# num = sorted(num)
+for i in range(N):
+    num.append(int(input()))
+num = sorted(num)
 
-# for j in range(len(num)):
-#     print(num[j])
+for j in range(len(num)):
+    print(num[j])
 
 
 #강사님 풀이
