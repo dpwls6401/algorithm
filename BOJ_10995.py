@@ -4,3 +4,11 @@ for i in range(num):
         print(f'{"* "*num}')
     else:
         print(f'{" *"*num}')
+
+#slicing
+n = int(input())
+line = "* " * n
+
+for i in range(n):
+    print(line)
+    line = line[::-1] #뒤집은 걸 넣음
