@@ -1,3 +1,5 @@
+# 크로아티아 알파벳 - 유학 금지 문제와 비슷
+
 ##1. replace 이용 - 한글자로 '수정'
 # 'z='이 'dz=' 보다 먼저 인식되면 안되므로 순서 맨 뒤로!
 croatia_alpha = ["c=","c-","dz=","d-","lj","nj","s=","z="]
@@ -7,6 +9,8 @@ word = input()
 for i in croatia_alpha:
     word = word.replace(i,"@")
 print(len(word))
+
+
 
 ##2. count 이용 - 한글자로 '인식'
 word = input()

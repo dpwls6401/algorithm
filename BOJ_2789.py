@@ -10,13 +10,18 @@
 
 # #다른 풀이
 # delete = "CAMBRIDGE"
-# result = []
-# for w in input():
-#     if w not in delete:
-#         result.append(w)
-# print(''.join(result))
+# 유학 금지
 
-#강사님 풀이
+# append, join 메서드 활용한 풀이
+# 금지어 아닌 것들 모아서 join
+delete = "CAMBRIDGE"
+result = []
+for w in input():
+    if w not in delete:
+        result.append(w)
+print(''.join(result))
+
+# 강사님 풀이
 word = input()
 
 for i in "CAMBRIDGE":

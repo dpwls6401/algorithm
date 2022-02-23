@@ -1,3 +1,4 @@
+# 별 찍기 - 20
 num = int(input())
 for i in range(num):
     if i%2 ==0:
@@ -5,7 +6,7 @@ for i in range(num):
     else:
         print(f'{" *"*num}')
 
-#slicing
+#slicing 활용한 풀이
 n = int(input())
 line = "* " * n
 

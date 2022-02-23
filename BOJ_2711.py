@@ -1,10 +1,12 @@
+# 오타맨 고창영
+
 T = int(input())
 
 for i in range(T):
     #위치를 index로 받기
     index, word = input().split()
     index = int(index)
-    changed_word = word[0:index-1] + word[index:]
+    changed_word = word[:index-1] + word[index:]
     print(changed_word)
 
     # n,s = map(str,input().split())

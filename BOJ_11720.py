@@ -7,12 +7,7 @@
 #     sum += int(n[i])
 # print(sum)
 
-#내장함수 sum 활용
-# n = input()
-# for i in range(n):
-#     print(sum(map(int, input())))
-
 #강사님 풀이 - sum 내장함수
-n = int(input())
+n = int(input()) #파이썬에서는 필요 없음. 다른 언어 위해 써둔 것
 numbers = list(map(int, input()))
 print(sum(numbers))
